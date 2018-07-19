@@ -1,6 +1,6 @@
 language: go
 install:
-  go get -v github.com/jasongreenlees/hugo-static-test
+  - go get -v github.com/jasongreenlees/hugo-static-test
   script:
   - yugo version
   - make build
