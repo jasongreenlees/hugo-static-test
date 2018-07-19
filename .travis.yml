@@ -2,7 +2,7 @@ language: go
 install:
   - go get -v github.com/jasongreenlees/hugo-static-test
   script:
-  - yugo version
+  - hugo version
   - make build
   branches:
     only:
